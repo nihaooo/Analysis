@@ -6,86 +6,67 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_onemonth"
-            android:icon="@drawable/nav_onemonth"
+            android:icon="@mipmap/month_icon"
             android:title="一月"/>
         <item
             android:id="@+id/nav_twomonth"
-            android:icon="@drawable/nav_onemonth"
+            android:icon="@mipmap/month_icon"
             android:title="二月"/>
         <item
         android:id="@+id/nav_threemonth"
-        android:icon="@drawable/nav_onemonth"
+        android:icon="@mipmap/month_icon"
         android:title="三月"/>
         <item
         android:id="@+id/nav_fourmonth"
-        android:icon="@drawable/nav_onemonth"
+        android:icon="@mipmap/month_icon"
         android:title="四月"/>
         <item
-            android:id="@+id/nav_onemonths"
-            android:icon="@drawable/nav_onemonth"
-            android:title="一月"/>
+            android:id="@+id/nav_fivemonth"
+            android:icon="@mipmap/month_icon"
+            android:title="五月"/>
         <item
-            android:id="@+id/nav_twomonthd"
-            android:icon="@drawable/nav_onemonth"
-            android:title="二月"/>
+            android:id="@+id/nav_sixmonth"
+            android:icon="@mipmap/month_icon"
+            android:title="六月"/>
         <item
-            android:id="@+id/nav_threemontha"
-            android:icon="@drawable/nav_onemonth"
-            android:title="三月"/>
+            android:id="@+id/nav_sevenmonth"
+            android:icon="@mipmap/month_icon"
+            android:title="七月"/>
         <item
-            android:id="@+id/nav_fourmonthv"
-            android:icon="@drawable/nav_onemonth"
-            android:title="四月"/>
+            android:id="@+id/nav_eightmonth"
+            android:icon="@mipmap/month_icon"
+            android:title="八月"/>
         <item
-            android:id="@+id/nav_onemonthsdf"
-            android:icon="@drawable/nav_onemonth"
-            android:title="一月"/>
+            android:id="@+id/nav_ninemonth"
+            android:icon="@mipmap/month_icon"
+            android:title="九月"/>
         <item
-            android:id="@+id/nav_twomonthsfs"
-            android:icon="@drawable/nav_onemonth"
-            android:title="二月"/>
+            android:id="@+id/nav_shimonth"
+            android:icon="@mipmap/month_icon"
+            android:title="十月"/>
         <item
-            android:id="@+id/nav_threemonthsdfwe"
-            android:icon="@drawable/nav_onemonth"
-            android:title="三月"/>
+            android:id="@+id/nav_shiyimonth"
+            android:icon="@mipmap/month_icon"
+            android:title="十一月"/>
         <item
-            android:id="@+id/nav_fourmonthfwef"
-            android:icon="@drawable/nav_onemonth"
-            android:title="四月"/>
-        <item
-            android:id="@+id/nav_onemonthwefewfw"
-            android:icon="@drawable/nav_onemonth"
-            android:title="一月"/>
-        <item
-            android:id="@+id/nav_twomonthwerfewf"
-            android:icon="@drawable/nav_onemonth"
-            android:title="二月"/>
-        <item
-            android:id="@+id/nav_threemonthwefwefwewq"
-            android:icon="@drawable/nav_onemonth"
-            android:title="三月"/>
-        <item
-            android:id="@+id/nav_fourmonthqweqwd"
-            android:icon="@drawable/nav_onemonth"
-            android:title="四月"/>
-        <item
-            android:id="@+id/nav_onemonthqfef"
-            android:icon="@drawable/nav_onemonth"
-            android:title="一月"/>
-        <item
-            android:id="@+id/nav_twomonthwerc"
-            android:icon="@drawable/nav_onemonth"
-            android:title="二月"/>
-        <item
-            android:id="@+id/nav_threemonthqweqwd"
-            android:icon="@drawable/nav_onemonth"
-            android:title="三月"/>
-        <item
-            android:id="@+id/nav_fourmonthqeerf"
-            android:icon="@drawable/nav_onemonth"
-            android:title="四月"/>
+            android:id="@+id/nav_shiermonth"
+            android:icon="@mipmap/month_icon"
+            android:title="十二月"/>
+
+
+        <item android:title="   "/>
+        <menu>
+            <item
+                android:id="@+id/choose_year"
+                android:icon="@@mipmap/choose_year"
+                android:title="选择年份" />
+
+            <item
+                android:id="@+id/sub_switch"
+                android:icon="@mipmap/change_theme"
+                android:title="切换主题" />
+        </menu>
 
     </group>
-
 
 </menu>
